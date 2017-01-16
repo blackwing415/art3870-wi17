@@ -1,22 +1,70 @@
-/* This is the stylesheet for the homepage*/
-/* table of contents */
-/* header styles */
-/* main body styles */
-/* footer styles */
-
-h1, h6{font-family: cursive;}
-
-header{}
-  header h1{color:red; background-color: yellow;}
-
-nav{}
-footer{}
 
 
-* {outline: 1px solid red}
+h1 {
+font-family: 'Oswald', sans-serif;
+font-size: 30px;
+}
 
-/* header styles */
+h2{
+font-family: 'Permanent Marker', cursive;
+font-size: 30px;
+color:#72BFE9;
+letter-spacing:1px;
+text-align: center;
+}
 
-/* main body styles */
+h4{
+  margin: 10px 0px 10px 0px;
+}
 
-/* footer styles */
+p{
+font-family: 'Roboto', sans-serif;
+text-align: center;
+margin: 20px 20px 20px 20px;
+line-height: normal;
+}
+
+.black{
+  background-color: black;
+  color: white;
+}
+
+.white{
+  background-color: white;
+  color: black;
+}
+
+header{
+  margin: 10px 0px 10px 0px;
+}
+
+nav {
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+
+nav a{
+  margin: 5px;
+  color: #000;
+}
+
+.toplg{
+  float: right;
+}
+
+.title{
+  text-align: center;
+  margin-top: 20px;
+}
+
+#bar{
+  margin-top: 4px;
+  height: 5px;
+  background: black;
+}
+
+form{
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
